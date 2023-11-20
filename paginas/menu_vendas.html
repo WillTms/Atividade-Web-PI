@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Produto</title>
+    <link rel="stylesheet" type="text/css" href="menu_vendas.css">
+    <style>
+        /* Estilo para o botão laranja */
+        .confirm-button {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="input-group">
+            <label for="Nome_funcionario">Nome do Funcionario</label>
+            <input type="text" id="Nome_funcionario" name="Nome_funcionario">
+        </div>
+
+        <div class="input-group">
+            <label for="Nome_produto">Nome do Produto</label>
+            <input type="text" id="Nome_produto" name="Nome_produto">
+        </div>
+
+        <div class="input-group">
+            <div class="input-split">
+                <div>
+                    <label for="Valor_venda">Valor de venda</label>
+                    <input type="text" id="Valor_venda" name="Valor_venda">
+                </div>
+                <div>
+                    <label for="Valor_comissao">Valor de Comissão</label>
+                    <input type="text" id="Valor_comissao" name="Valor_comissao">
+                </div>
+            </div>
+        </div>
+        <button class="confirm-button">Confirmar</button>   
+    </div>
+    
+</body>
+</html>
