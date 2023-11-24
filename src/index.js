@@ -11,16 +11,6 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(db);
 app.use(router);
 
-app.get("/", (req, res)=>{
-    res.sendFile(path.join(__dirname,"../paginas","login.html"));
-});
-
-app.use(express.static("paginas"));
-
-app.listen(3333, ()=>{
-    console.log("Servidor pocando")
-});
-
 /*const paginasPath = path.join(__dirname,"../","paginas");
 console.log(paginasPath);
 app.use("/paginas", express.static(paginasPath,{
@@ -30,5 +20,17 @@ app.use("/paginas", express.static(paginasPath,{
         res.setHeader("Content-Type","text/css");
       }
     },
-}));
-*/
+}));*/
+
+/*app.use(express.static(__dirname + "/paginas"));*/
+
+app.get("/", (req, res)=>{
+  res.sendFile(path.join(__dirname,"../paginas","login.html"));
+});
+
+
+app.listen(3333, ()=>{
+    console.log("Servidor pocando")
+});
+
+
