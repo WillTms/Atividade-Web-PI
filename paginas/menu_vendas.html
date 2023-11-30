@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <title>Formulário de Produto</title>
     <link rel="stylesheet" type="text/css" href="menu_vendas.css">
     <style>
-
-        body {
+          body {
             font-family: Arial, sans-serif;
             background-color: #253148;
         }
 
-        
         .container {
             max-width: 600px;
             background-color: #5A91A2;
@@ -98,8 +95,19 @@
             border-radius: 5px;
         }
 
-        .confirm-button {
-            background-color: #DD693E;
+        input[type="submit"] {
+            background-color: #d47653;
+            color: #000000;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            align-self: flex-end;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #b96243;
             color: white;
             padding: 10px 20px;
             border: none;
@@ -109,15 +117,8 @@
             align-self: flex-end;
         }
 
-        .confirm-button {
-            background-color: orange;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 20px;
-        }
+
+        
     </style>
 </head>
 <body>
@@ -144,9 +145,8 @@
                 </div>
             </div>
         </div>
-        <button class="confirm-button">Confirmar</button>
+        <input type="submit" value="Confirmar Venda">
     </div>
-
+    
 </body>
-
 </html>
