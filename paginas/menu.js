@@ -1,15 +1,15 @@
 function openCadastroFuncionario() {
-    window.location.href = "cadastro_funcionario.html";
+    window.location.href = "cadastro_funcionario";
 }
 
 function openCadastroProduto() {
-    window.location.href = "cadastro_produto.html";
+    window.location.href = "cadastro_produto";
 }
 
 function openListaProdutos() {
-    window.location.href = "lista_produtos.html";
+    window.location.href = "lista_produtos";
 }
 
 function performLogout() {
-    window.location.href = "login.html";
+    window.location.href = "login";
 }

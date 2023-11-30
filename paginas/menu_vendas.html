@@ -1,11 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Formulário de Produto</title>
     <link rel="stylesheet" type="text/css" href="menu_vendas.css">
     <style>
-        /* Estilo para o botão laranja */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #253148;
+        }
+
+        .container {
+            max-width: 600px;
+            background-color: #5A91A2;
+            margin: 100px 0 0 445px;
+            padding: 20px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #Nome_funcionario {
+            width: 96%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #Nome_produto {
+            width: 96%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+
+
+        #Valor_venda {
+            width: 80%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #Valor_comissao {
+            width: 92%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            font-weight: bold;
+        }
+
+        .input-group input {
+            width: 90%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .input-split {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .description {
+            margin-top: 20px;
+        }
+
+        .description label {
+            font-weight: bold;
+        }
+
+        .description textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .confirm-button {
+            background-color: #DD693E;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            align-self: flex-end;
+        }
+
         .confirm-button {
             background-color: orange;
             color: white;
@@ -41,8 +142,9 @@
                 </div>
             </div>
         </div>
-        <button class="confirm-button">Confirmar</button>   
+        <button class="confirm-button">Confirmar</button>
     </div>
-    
+
 </body>
+
 </html>

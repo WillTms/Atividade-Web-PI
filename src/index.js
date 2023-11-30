@@ -28,6 +28,26 @@ app.get("/", (req, res)=>{
   res.sendFile(path.join(__dirname,"../paginas","login.html"));
 });
 
+app.get("/cadastro_funcionario", (req, res)=>{
+  res.sendFile(path.join(__dirname,"../paginas","cadastro_funcionario.html"));
+});
+
+app.get("/menu", (req, res)=>{
+  res.sendFile(path.join(__dirname,"../paginas","menu.html"));
+});
+
+app.get("/cadastro_produtos", (req, res)=>{
+  res.sendFile(path.join(__dirname,"../paginas","cadastro_produtos.html"));
+});
+
+app.get("/menu_vendas", (req, res)=>{
+  res.sendFile(path.join(__dirname,"../paginas","menu_vendas.html"));
+});
+
+app.get("/login", (req, res)=>{
+  res.sendFile(path.join(__dirname,"../paginas","login.html"));
+});
+
 
 app.listen(3333, ()=>{
     console.log("Servidor pocando")
